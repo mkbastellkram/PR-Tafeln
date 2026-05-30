@@ -1,17 +1,16 @@
-PR9 MapFocus Variante B v4 — UI-Stabilisierung
+PR9_MapFocus_VarianteB_v3_DEPLOY_ONLY
 
-Deployment:
-- index.html in das GitHub-Pages-Repository-Root hochladen.
-- 404.html optional hochladen.
+Zum GitHub-Test:
+1. Nur index.html in den Repository-Root hochladen.
+2. Optional 404.html zusätzlich hochladen.
+3. Keine weiteren Dateien erforderlich.
 
-Änderungen v4:
-- nahezu deckende Apple-Glass-Kacheln auf 9:16-Hintergrundbild
-- Start/Ziel-Hinweis gekürzt
-- Kartenhinweis/Pill entfernt; nur transparentes Vollbildsymbol
-- Kartenviewer höhenpassend, native 1:1-Zoomstufe erreichbar
-- Originaltafel im gleichen Bildviewer antippbar
-- GPX-Ribbon unten ein-/ausblendbar
-- GPX-Feinjustierung als stabile Symbolzeile
-- Edge-Swipe links/rechts/oben zum Schließen
-
-Status: Arbeitsmockup, deutsche Texte KI-gestützt übersetzt.
+Inhalte:
+- Bilder direkt in index.html eingebettet
+- Karte mit Highres-Vollbildmodus
+- GPX-Vergleichslayer als SVG-Overlay
+- GPX-Layer manuell verschiebbar, skalierbar, drehbar
+- Telefonlinks via tel:
+- PR9-Infobutton zur Madeira-Seite aus der Projekttabelle
+- Maps-Suche für Café/Sanitär
+- ProCiv Madeira: experimenteller App-Wechsel, Fallback App Store
