@@ -1,9 +1,8 @@
 {
   "id": "PR9",
-  "warnings": [
-    "Schmale Tunnel: Taschenlampe mitführen.",
-    "Abschnitte können rutschig sein: geeignetes, rutschfestes Schuhwerk tragen.",
-    "Gefahr von Schwindel/Höhenangst an ausgesetzten Abschnitten."
-  ],
-  "translation_note": "KI-basierte deutsche Arbeitsübersetzung aus sichtbarer englischer/portugiesischer Tafelstruktur; vor Serienfreigabe OCR-/Sichtprüfung erforderlich."
+  "translation_status": "KI-Arbeitsübersetzung; OCR-/Sichtprüfung vor Serienfreigabe erforderlich",
+  "notes": [
+    "Sicherheitsrelevante Angaben mit Originaltafel und offiziellen IFCN-Hinweisen abgleichen.",
+    "Bildsegmente wurden für PR9 individuell und großzügiger ausgeschnitten; nicht als starre Maske auf andere Tafeln übertragen."
+  ]
 }

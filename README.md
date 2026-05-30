@@ -1,30 +1,28 @@
-# PR9 Map Focus Variante B — korrigierte Testfassung
+# PR9 Map Focus Variante B — v2
 
-Diese ZIP enthält zwei Varianten:
-
-- `index.html` = **selbstständige Ein-Datei-Version**. Alle Bilder sind eingebettet. Diese Datei funktioniert auch dann, wenn GitHub/iPhone/Dateien-App den `assets`-Ordner nicht korrekt mitlädt.
-- `index_external_assets.html` = klassische Variante mit separatem `assets/`-Ordner.
-
-Für den schnellen GitHub-Test: `index.html` verwenden.
-
-Fehlerursache der vorherigen Fassung: Die Bilddateien waren technisch vorhanden, aber die HTML-Datei hat sie über relative Pfade wie `assets/pr9_map.webp` geladen. Wenn der Ordner `assets` nicht exakt am selben Ort wie `index.html` liegt oder beim Upload/Entpacken nicht mitgenommen wird, zeigt Safari/GitHub nur Alt-Text bzw. ein Fragezeichen.
-
-# PR9 HTML-Mockup — PR-Explorer
-
-Testbare Einzelroute für GitHub Pages.
+Testbare HTML-Arbeitsfassung für GitHub Pages.
 
 ## Start
 
-`index.html` öffnen oder den Ordner in ein GitHub-Pages-Repository hochladen.
+Für den iPhone-Test `index.html` öffnen oder über GitHub Pages bereitstellen.
 
 ## Enthalten
 
-- PR9 mobile HTML-Ansicht
-- Originalgrafik-Bereiche aus der IFCN-Tafel
-- Variante B: Doppeltippen auf die Karte öffnet Vollbildmodus
-- Pinch-Zoom bis 200 %
-- Info-Button mit Bottom-Sheet zur KI-Übersetzung
+- selbstständige `index.html` mit eingebetteten Bilddaten
+- `index_external_assets.html` mit externen Assets
+- `assets/` mit Preview- und Fullres-Bildquellen
 
-## Status
+## Geändert gegenüber v1
 
-Arbeitsmockup. Texte müssen vor Serienproduktion OCR-/sichtgeprüft werden.
+- Karte neu und großzügiger aus Originaltafel extrahiert
+- Highres-Karte für Vollbildmodus getrennt von Preview-Ansicht
+- Apple-Fotos-artiges Vollbild-Overlay statt halbem Bottom-Sheet
+- Doppeltipp auf Karte öffnet direkt Vollbild
+- Doppeltipp im Vollbild toggelt 100 % / 200 %
+- Swipe-down schließt nur bei 100 % Zoom
+- Fotos als horizontaler Swipe-Slider
+- Zuschnitte mit Sicherheitsrändern
+
+## Produktionshinweis
+
+Die PR9-Zuschnitte sind individuell geprüft. Für weitere PR-Tafeln keine starren Pixelmasken verwenden, sondern jeweils Layout-Scan + adaptive Segmentierung.
