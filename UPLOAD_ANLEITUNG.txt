@@ -1,0 +1,13 @@
+UPLOAD TEST
+
+1. In GitHub die aktuelle Datei index.html löschen.
+2. Danach ausschließlich diese Dateien hochladen:
+   - index.html
+   - 404.html
+   - .nojekyll
+3. README.md, de_full.md und andere Dateien für diesen Test nicht hochladen.
+4. GitHub Pages öffnen mit: https://mkbastellkram.github.io/PR-Tafeln/?v=index-only-fix
+
+Prüfung:
+Die GitHub-Datei index.html muss in Zeile 1 mit <!doctype html> beginnen.
+Wenn sie mit # PR9 beginnt, ist erneut die falsche Datei als index.html hochgeladen worden.
